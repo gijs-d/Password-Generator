@@ -1,5 +1,5 @@
 const crypto = require('crypto');
-let chars = `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-={}[]|;:'"<>?,./~ `;
+let chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-={}[]|;:\'"<>?,./~ ';
 
 const options = {
     length: 30,
